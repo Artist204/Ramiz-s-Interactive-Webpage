@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Allows absolute positioning of moving elements */
+}
+
+/* Greeting Section */
+.greeting-section {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Text Color Change Section */
+#colorText {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#hoverButton {
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Styling for when hovering */
+#hoverButton:hover {
+    background-color: #ffffff;
+}
